@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE87AC257BFFAFFC3A562C15 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F1E56C487346B74E1F2C96 /* libPods.a */; };
+		F99B8EC11B831CB7000C2986 /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99B8EC01B831CB7000C2986 /* more@2x.png */; };
+		F99B8EC61B8332B5000C2986 /* ShareData.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B8EC31B8332B5000C2986 /* ShareData.m */; };
+		F99B8EC71B8332B5000C2986 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B8EC51B8332B5000C2986 /* Common.m */; };
+		F99B8ECA1B8334DD000C2986 /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99B8EC81B8334DD000C2986 /* Default-568@2x.png */; };
+		F99B8ECB1B8334DD000C2986 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F99B8EC91B8334DD000C2986 /* Default@2x.png */; };
+		F99C21631B81B7AC002AE661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C21621B81B7AC002AE661 /* main.m */; };
+		F99C21661B81B7AC002AE661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C21651B81B7AC002AE661 /* AppDelegate.m */; };
+		F99C21691B81B7AC002AE661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C21681B81B7AC002AE661 /* ViewController.m */; };
+		F99C216C1B81B7AC002AE661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99C216A1B81B7AC002AE661 /* Main.storyboard */; };
+		F99C216E1B81B7AC002AE661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99C216D1B81B7AC002AE661 /* Images.xcassets */; };
+		F99C21711B81B7AC002AE661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F99C216F1B81B7AC002AE661 /* LaunchScreen.xib */; };
+		F99C217D1B81B7AC002AE661 /* TingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99C217C1B81B7AC002AE661 /* TingTests.m */; };
+		F9F0B3DD1B840F3E00481B2C /* SinaController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F0B3DC1B840F3E00481B2C /* SinaController.m */; };
+		F9F0B3E01B840F4E00481B2C /* MusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F0B3DF1B840F4E00481B2C /* MusicController.m */; };
+		F9F0B3E31B840F6D00481B2C /* MoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F0B3E21B840F6D00481B2C /* MoreController.m */; };
+		F9F0B3E61B840F8500481B2C /* AboutMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F0B3E51B840F8500481B2C /* AboutMeController.m */; };
+		F9F0B3E91B840F9A00481B2C /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F0B3E81B840F9A00481B2C /* DetailController.m */; };
+		F9F0B3EB1B84151D00481B2C /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F0B3EA1B84151D00481B2C /* back@2x.png */; };
+		F9F0B3ED1B84238B00481B2C /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F0B3EC1B84238B00481B2C /* close@2x.png */; };
+		F9F6925F1B82FE6600B839B8 /* home2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F692591B82FE6600B839B8 /* home2@2x.png */; };
+		F9F692601B82FE6600B839B8 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6925A1B82FE6600B839B8 /* home@2x.png */; };
+		F9F692631B82FE6600B839B8 /* sina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6925D1B82FE6600B839B8 /* sina@2x.png */; };
+		F9F692641B82FE6600B839B8 /* tenct@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F6925E1B82FE6600B839B8 /* tenct@2x.png */; };
+		F9F692681B830BA500B839B8 /* music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F692671B830BA500B839B8 /* music@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F99C21771B81B7AC002AE661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99C21551B81B7AC002AE661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99C215C1B81B7AC002AE661;
+			remoteInfo = Ting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31F1E56C487346B74E1F2C96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E560B3121FA0B91FE473C18 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C63064E6F4D3D216118839 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F99B8EC01B831CB7000C2986 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		F99B8EC21B8332B5000C2986 /* ShareData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareData.h; sourceTree = "<group>"; };
+		F99B8EC31B8332B5000C2986 /* ShareData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareData.m; sourceTree = "<group>"; };
+		F99B8EC41B8332B5000C2986 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		F99B8EC51B8332B5000C2986 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		F99B8EC81B8334DD000C2986 /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
+		F99B8EC91B8334DD000C2986 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F99C215D1B81B7AC002AE661 /* Ting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99C21611B81B7AC002AE661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99C21621B81B7AC002AE661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F99C21641B81B7AC002AE661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F99C21651B81B7AC002AE661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F99C21671B81B7AC002AE661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F99C21681B81B7AC002AE661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F99C216B1B81B7AC002AE661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F99C216D1B81B7AC002AE661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F99C21701B81B7AC002AE661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F99C21761B81B7AC002AE661 /* TingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99C217B1B81B7AC002AE661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99C217C1B81B7AC002AE661 /* TingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TingTests.m; sourceTree = "<group>"; };
+		F9F0B3DB1B840F3E00481B2C /* SinaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaController.h; sourceTree = "<group>"; };
+		F9F0B3DC1B840F3E00481B2C /* SinaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaController.m; sourceTree = "<group>"; };
+		F9F0B3DE1B840F4E00481B2C /* MusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicController.h; path = ../MusicController.h; sourceTree = "<group>"; };
+		F9F0B3DF1B840F4E00481B2C /* MusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MusicController.m; path = ../MusicController.m; sourceTree = "<group>"; };
+		F9F0B3E11B840F6D00481B2C /* MoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreController.h; sourceTree = "<group>"; };
+		F9F0B3E21B840F6D00481B2C /* MoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreController.m; sourceTree = "<group>"; };
+		F9F0B3E41B840F8500481B2C /* AboutMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeController.h; sourceTree = "<group>"; };
+		F9F0B3E51B840F8500481B2C /* AboutMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeController.m; sourceTree = "<group>"; };
+		F9F0B3E71B840F9A00481B2C /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		F9F0B3E81B840F9A00481B2C /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		F9F0B3EA1B84151D00481B2C /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		F9F0B3EC1B84238B00481B2C /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		F9F692591B82FE6600B839B8 /* home2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home2@2x.png"; sourceTree = "<group>"; };
+		F9F6925A1B82FE6600B839B8 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		F9F6925D1B82FE6600B839B8 /* sina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina@2x.png"; sourceTree = "<group>"; };
+		F9F6925E1B82FE6600B839B8 /* tenct@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tenct@2x.png"; sourceTree = "<group>"; };
+		F9F692671B830BA500B839B8 /* music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99C215A1B81B7AC002AE661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE87AC257BFFAFFC3A562C15 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99C21731B81B7AC002AE661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43E555371FE70A758B0E3101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31F1E56C487346B74E1F2C96 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61BC30A831FD4FADE27A5D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E560B3121FA0B91FE473C18 /* Pods.debug.xcconfig */,
+				C6C63064E6F4D3D216118839 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F99C21541B81B7AC002AE661 = {
+			isa = PBXGroup;
+			children = (
+				F99C215F1B81B7AC002AE661 /* Ting */,
+				F99C21791B81B7AC002AE661 /* TingTests */,
+				F99C215E1B81B7AC002AE661 /* Products */,
+				61BC30A831FD4FADE27A5D46 /* Pods */,
+				43E555371FE70A758B0E3101 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F99C215E1B81B7AC002AE661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99C215D1B81B7AC002AE661 /* Ting.app */,
+				F99C21761B81B7AC002AE661 /* TingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99C215F1B81B7AC002AE661 /* Ting */ = {
+			isa = PBXGroup;
+			children = (
+				F99B8EC21B8332B5000C2986 /* ShareData.h */,
+				F99B8EC31B8332B5000C2986 /* ShareData.m */,
+				F99B8EC41B8332B5000C2986 /* Common.h */,
+				F99B8EC51B8332B5000C2986 /* Common.m */,
+				F9F692581B82FE6600B839B8 /* resource */,
+				F99C21641B81B7AC002AE661 /* AppDelegate.h */,
+				F99C21651B81B7AC002AE661 /* AppDelegate.m */,
+				F99C21671B81B7AC002AE661 /* ViewController.h */,
+				F99C21681B81B7AC002AE661 /* ViewController.m */,
+				F99C216A1B81B7AC002AE661 /* Main.storyboard */,
+				F99C216D1B81B7AC002AE661 /* Images.xcassets */,
+				F99C216F1B81B7AC002AE661 /* LaunchScreen.xib */,
+				F99C21601B81B7AC002AE661 /* Supporting Files */,
+				F9F0B3DB1B840F3E00481B2C /* SinaController.h */,
+				F9F0B3DC1B840F3E00481B2C /* SinaController.m */,
+				F9F0B3DE1B840F4E00481B2C /* MusicController.h */,
+				F9F0B3DF1B840F4E00481B2C /* MusicController.m */,
+				F9F0B3E11B840F6D00481B2C /* MoreController.h */,
+				F9F0B3E21B840F6D00481B2C /* MoreController.m */,
+				F9F0B3E41B840F8500481B2C /* AboutMeController.h */,
+				F9F0B3E51B840F8500481B2C /* AboutMeController.m */,
+				F9F0B3E71B840F9A00481B2C /* DetailController.h */,
+				F9F0B3E81B840F9A00481B2C /* DetailController.m */,
+			);
+			path = Ting;
+			sourceTree = "<group>";
+		};
+		F99C21601B81B7AC002AE661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F99C21611B81B7AC002AE661 /* Info.plist */,
+				F99C21621B81B7AC002AE661 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F99C21791B81B7AC002AE661 /* TingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F99C217C1B81B7AC002AE661 /* TingTests.m */,
+				F99C217A1B81B7AC002AE661 /* Supporting Files */,
+			);
+			path = TingTests;
+			sourceTree = "<group>";
+		};
+		F99C217A1B81B7AC002AE661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F99C217B1B81B7AC002AE661 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9F692581B82FE6600B839B8 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F9F0B3EC1B84238B00481B2C /* close@2x.png */,
+				F9F0B3EA1B84151D00481B2C /* back@2x.png */,
+				F99B8EC81B8334DD000C2986 /* Default-568@2x.png */,
+				F99B8EC91B8334DD000C2986 /* Default@2x.png */,
+				F99B8EC01B831CB7000C2986 /* more@2x.png */,
+				F9F692671B830BA500B839B8 /* music@2x.png */,
+				F9F692591B82FE6600B839B8 /* home2@2x.png */,
+				F9F6925A1B82FE6600B839B8 /* home@2x.png */,
+				F9F6925D1B82FE6600B839B8 /* sina@2x.png */,
+				F9F6925E1B82FE6600B839B8 /* tenct@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99C215C1B81B7AC002AE661 /* Ting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99C21801B81B7AC002AE661 /* Build configuration list for PBXNativeTarget "Ting" */;
+			buildPhases = (
+				C8A0F65596674D5000EB3B55 /* Check Pods Manifest.lock */,
+				F99C21591B81B7AC002AE661 /* Sources */,
+				F99C215A1B81B7AC002AE661 /* Frameworks */,
+				F99C215B1B81B7AC002AE661 /* Resources */,
+				DC2E3258FA3959D8236E891B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ting;
+			productName = Ting;
+			productReference = F99C215D1B81B7AC002AE661 /* Ting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99C21751B81B7AC002AE661 /* TingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99C21831B81B7AC002AE661 /* Build configuration list for PBXNativeTarget "TingTests" */;
+			buildPhases = (
+				F99C21721B81B7AC002AE661 /* Sources */,
+				F99C21731B81B7AC002AE661 /* Frameworks */,
+				F99C21741B81B7AC002AE661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99C21781B81B7AC002AE661 /* PBXTargetDependency */,
+			);
+			name = TingTests;
+			productName = TingTests;
+			productReference = F99C21761B81B7AC002AE661 /* TingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99C21551B81B7AC002AE661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = jov;
+				TargetAttributes = {
+					F99C215C1B81B7AC002AE661 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F99C21751B81B7AC002AE661 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F99C215C1B81B7AC002AE661;
+					};
+				};
+			};
+			buildConfigurationList = F99C21581B81B7AC002AE661 /* Build configuration list for PBXProject "Ting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99C21541B81B7AC002AE661;
+			productRefGroup = F99C215E1B81B7AC002AE661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99C215C1B81B7AC002AE661 /* Ting */,
+				F99C21751B81B7AC002AE661 /* TingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99C215B1B81B7AC002AE661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99B8EC11B831CB7000C2986 /* more@2x.png in Resources */,
+				F9F692601B82FE6600B839B8 /* home@2x.png in Resources */,
+				F9F692631B82FE6600B839B8 /* sina@2x.png in Resources */,
+				F9F692641B82FE6600B839B8 /* tenct@2x.png in Resources */,
+				F99B8ECA1B8334DD000C2986 /* Default-568@2x.png in Resources */,
+				F9F0B3EB1B84151D00481B2C /* back@2x.png in Resources */,
+				F99B8ECB1B8334DD000C2986 /* Default@2x.png in Resources */,
+				F9F6925F1B82FE6600B839B8 /* home2@2x.png in Resources */,
+				F9F692681B830BA500B839B8 /* music@2x.png in Resources */,
+				F9F0B3ED1B84238B00481B2C /* close@2x.png in Resources */,
+				F99C216C1B81B7AC002AE661 /* Main.storyboard in Resources */,
+				F99C21711B81B7AC002AE661 /* LaunchScreen.xib in Resources */,
+				F99C216E1B81B7AC002AE661 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99C21741B81B7AC002AE661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8A0F65596674D5000EB3B55 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2E3258FA3959D8236E891B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99C21591B81B7AC002AE661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99C21691B81B7AC002AE661 /* ViewController.m in Sources */,
+				F99C21661B81B7AC002AE661 /* AppDelegate.m in Sources */,
+				F9F0B3E91B840F9A00481B2C /* DetailController.m in Sources */,
+				F9F0B3E61B840F8500481B2C /* AboutMeController.m in Sources */,
+				F9F0B3E31B840F6D00481B2C /* MoreController.m in Sources */,
+				F9F0B3E01B840F4E00481B2C /* MusicController.m in Sources */,
+				F99B8EC71B8332B5000C2986 /* Common.m in Sources */,
+				F99C21631B81B7AC002AE661 /* main.m in Sources */,
+				F9F0B3DD1B840F3E00481B2C /* SinaController.m in Sources */,
+				F99B8EC61B8332B5000C2986 /* ShareData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99C21721B81B7AC002AE661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99C217D1B81B7AC002AE661 /* TingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F99C21781B81B7AC002AE661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99C215C1B81B7AC002AE661 /* Ting */;
+			targetProxy = F99C21771B81B7AC002AE661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F99C216A1B81B7AC002AE661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99C216B1B81B7AC002AE661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F99C216F1B81B7AC002AE661 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99C21701B81B7AC002AE661 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F99C217E1B81B7AC002AE661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F99C217F1B81B7AC002AE661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99C21811B81B7AC002AE661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E560B3121FA0B91FE473C18 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F99C21821B81B7AC002AE661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C63064E6F4D3D216118839 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F99C21841B81B7AC002AE661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ting.app/Ting";
+			};
+			name = Debug;
+		};
+		F99C21851B81B7AC002AE661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ting.app/Ting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99C21581B81B7AC002AE661 /* Build configuration list for PBXProject "Ting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99C217E1B81B7AC002AE661 /* Debug */,
+				F99C217F1B81B7AC002AE661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99C21801B81B7AC002AE661 /* Build configuration list for PBXNativeTarget "Ting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99C21811B81B7AC002AE661 /* Debug */,
+				F99C21821B81B7AC002AE661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99C21831B81B7AC002AE661 /* Build configuration list for PBXNativeTarget "TingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99C21841B81B7AC002AE661 /* Debug */,
+				F99C21851B81B7AC002AE661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99C21551B81B7AC002AE661 /* Project object */;
+}
