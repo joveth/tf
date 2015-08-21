@@ -4,10 +4,18 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>zh_CN</string>
+	<key>CFBundleDisplayName</key>
+	<string>TFBoys吧</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icon_120.png</string>
+		<string>icon_144.png</string>
+		<string>icon_256.png</string>
+	</array>
 	<key>CFBundleIdentifier</key>
-	<string>jov.$(PRODUCT_NAME:rfc1034identifier)</string>
+	<string>com.jov.tfboy</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -29,12 +37,6 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
-	</array>
-	<key>CFBundleIconFiles</key>
-	<array>
-		<string>icon_120.png</string>
-		<string>icon_144.png</string>
-		<string>icon_256.png</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

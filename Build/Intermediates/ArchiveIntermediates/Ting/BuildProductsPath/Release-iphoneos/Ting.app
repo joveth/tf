@@ -1,0 +1,1 @@
+/Users/shuwei/works/Ting/Build/Intermediates/ArchiveIntermediates/Ting/InstallationBuildProductsLocation/Applications/Ting.app
