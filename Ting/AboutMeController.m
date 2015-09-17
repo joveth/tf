@@ -90,7 +90,7 @@
         testMsg.pass = @"funny_ba@163";
     }
     testMsg.wantsSecure = YES;
-    testMsg.subject = @"IOS Arsenal Mail ";
+    testMsg.subject = @"IOS TF Mail ";
     testMsg.delegate = self;
     NSDictionary *plainPart = [NSDictionary dictionaryWithObjectsAndKeys:@"text/plain",kSKPSMTPPartContentTypeKey,
                                [NSString stringWithCString:[_textView.text UTF8String] encoding:NSUTF8StringEncoding],kSKPSMTPPartMessageKey,@"8bit",kSKPSMTPPartContentTransferEncodingKey,nil];
@@ -118,5 +118,8 @@
         return NO;
     }
     return YES;
+}
+- (IBAction)backClc:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 @end

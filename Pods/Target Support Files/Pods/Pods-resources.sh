@@ -51,10 +51,14 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "CSSSelectorConverter/CSSSelectorConverter/CSSSelectorGrammar.txt"
+  install_resource "CSSSelectorConverter/CSSSelectorConverter/CSSSelectorParser.plist"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "CSSSelectorConverter/CSSSelectorConverter/CSSSelectorGrammar.txt"
+  install_resource "CSSSelectorConverter/CSSSelectorConverter/CSSSelectorParser.plist"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi

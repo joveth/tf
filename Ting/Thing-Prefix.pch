@@ -1,0 +1,16 @@
+//
+//  Thing.pch
+//  Ting
+//
+//  Created by Shuwei on 15/9/15.
+//  Copyright (c) 2015年 jov. All rights reserved.
+//
+
+#ifndef Ting_Thing_pch
+#define Ting_Thing_pch
+
+#define MY_WIDTH [[UIScreen mainScreen] bounds].size.width
+#define MY_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+
+#endif

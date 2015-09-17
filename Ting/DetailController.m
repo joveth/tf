@@ -9,6 +9,7 @@
 #import "DetailController.h"
 #import "ShareData.h"
 
+
 @interface DetailController ()
 @property (weak, nonatomic) IBOutlet UIWebView *webview;
 

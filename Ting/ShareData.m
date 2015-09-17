@@ -8,10 +8,16 @@
 
 #import "ShareData.h"
 
+NSString * const IMG_URL=@"http://image.baidu.com";
+NSString * const IMG_BASE=@"http://image.baidu.com";
+NSString * const NEWS_BASE=@"http://ixingji.com/f/miraclelist.html?appid=544&size=20";
+NSString * const MUSIC_BASE=@"http://i.y.qq.com/";
+NSString * const NEWS_URL=@"http://ixingji.com";
 @implementation ShareData
 @synthesize title;
 @synthesize url;
 @synthesize flag;
+@synthesize newsBean;
 static ShareData *instance;
 +(ShareData *)shareInstance{
     if(instance==nil){
